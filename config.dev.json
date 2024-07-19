@@ -1,7 +1,7 @@
 {
-  "facebookAccount": {},
-  "email": "azizd3947@gmail.com",
-  "password": "aziz2009",
+  "facebookAccount": {
+  "email": "",
+  "password": "",
   "2FASecret": "",
   "i_user": "",
   "proxy": null,
