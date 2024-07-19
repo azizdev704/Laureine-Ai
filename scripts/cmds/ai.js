@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const Prefixes = [
   '/ai',
-  'what',
+  'ai',
   'bot',
   '+ai',
   '-ai',
@@ -14,7 +14,7 @@ module.exports = {
   config: {
     name: "ask",
     version: 1.0,
-    author: "Mark",
+    author: "Sandip",
     longDescription: "AI",
     category: "ai",
     guide: {
@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Please provide a question.");
+        await message.reply("Hello, Moi c’est Laureine, ton humble assistante IA, je te prie de poser une question afin que je puisse t’assister☺️.");
         return;
       }
 
