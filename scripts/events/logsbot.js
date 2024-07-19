@@ -21,9 +21,9 @@ module.exports = {
 		},
 		en: {
 			title: "====== Bot logs ======",
-			added: "\n✅\nEvent: bot has been added to a new group\n- Added by: %1",
-			kicked: "\n❌\nEvent: bot has been kicked\n- Kicked by: %1",
-			footer: "\n- User ID: %1\n- Group: %2\n- Group ID: %3\n- Time: %4"
+			added: "\n✅\nEvènement: Hello Master ☺️, je viens tout juste d’être ajoutée dans un groupe.\n- Par: %1",
+			kicked: "\n❌\nEvènement: Hello Master ☺️, je viens d’être malheureusement supprimée d’un groupe\n- Par: %1",
+			footer: "\n- ID de l’utilisateur: %1\n- Nom du groupe: %2\n- ID du groupe : %3\n- Moment: %4"
 		}
 	},
 
